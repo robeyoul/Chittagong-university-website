@@ -1,0 +1,408 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.website
+{
+  height: auto;
+  width: 100vw;
+  
+}
+
+.header
+{
+  
+}
+
+.header nav
+{
+  background-color: darkred;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+}
+
+.header nav .nav-logo
+{
+  height: 40px;
+  width: 40px;
+}
+
+nav h3
+{
+  color: white;
+  padding: 0 25px;
+  text-transform: uppercase;
+  font-size: .9rem;
+}
+
+.header .wallpaper
+{
+  background-image: url(download.jpeg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* ...................
+header section end
+....................*/
+
+.section-2
+{
+  display: grid;
+  grid-template-columns: 1fr;
+  
+}
+
+.principal
+{
+  text-align: center;
+  margin: 25px 10px;
+}
+
+.principal .principal-img
+{
+  border-radius:50% ;
+  width: 200px;
+  height: 200px;
+}
+
+.principal p
+{
+  margin-top: 10px;
+}
+
+/* section-2 message */
+
+
+.message
+{
+  margin: 25px 10px;
+}
+
+.message .message-heading
+{
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #A31D30;
+}
+
+.message p
+{
+  text-align: justify;
+  line-height: 2rem;
+}
+
+.message p a
+{
+  text-decoration: none;
+}
+
+/* message section end*/
+
+
+.mujib
+{
+  text-align: center;
+}
+
+.mujib-img
+{
+  height: 300px;
+  width: 300px;
+}
+
+.mujib h1
+{
+  color: #F9A825;
+  font-size: 2rem;
+  
+}
+
+.mujib p
+{
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+
+/* section 2 end here*/
+
+
+.university-information
+{
+  margin: 25px 10px;
+  text-align: center;
+}
+
+.university-information .report-title
+{
+  margin: 50px 0;
+  font-size: 2rem;
+  color: #B71C1C;
+}
+
+.report
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;                             
+  grid-gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.report div p
+{
+  margin-top: 15px;
+}
+
+.report div h1 
+{
+  font-size: 1.5rem;
+}
+
+.report div p
+{
+  
+}
+
+
+/* university information section end*/
+
+.overview-section
+{
+  margin: 70px 0px;
+  background-color: #fffde7;
+  padding-top: 70px;
+  padding: 50px 15px;
+}
+
+.card
+{
+  background: #fff;
+  width: 100%;
+  box-shadow: 5px 8px 10px #6E72A1;
+  overflow: hidden;
+  margin: 30px 0px;
+}
+
+.card img
+{
+  height: 300px;
+  width: 100%;
+  transition: .3s
+  
+}
+
+.card img:hover
+{
+  transform: scale(1.1);
+  
+}
+
+.card p
+{
+  font-size: 2rem;
+  padding: 10px 25px;
+}
+
+.card h3
+{
+  color: #0D47A1;
+  padding: 10px 25px;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+/* overview section end*/
+
+
+.faculties-deparment
+{
+ text-align: center;
+ margin: 30px 25px;
+}
+
+.faculties-deparment .title
+{
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+.department-card img
+{
+  width: 100%;
+  height: auto;
+}
+
+.department-card p
+{
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.department-card a
+{
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 80px;
+}
+
+.department-card
+{
+  box-shadow: 7px 7px 5px #4D4F6A,
+  -7px 4px 5px #4D4F6A;
+  padding-bottom: 30px;
+  margin: 30px 0;
+  
+}
+
+/* faculties-deparment section end*/
+
+.library-section
+{
+  text-align: center;
+  background: #f9f9ef;
+  padding: 30px 15px;
+}
+
+.library-section .title
+{
+  font-size: 2.5rem;
+  color: red;
+  padding: 20px 0;
+}
+
+.library 
+{
+  
+}
+
+.library img
+{
+  width: 100%;
+}
+
+.library p
+{
+  text-align: justify;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+}
+
+.rare-collection , .e-learning , .mujib-corner 
+{
+  margin-top: 30px;
+  text-align: left;
+}
+
+.sub-title
+{
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+div .para
+{
+  line-height: 2rem;
+  font-size: 1.1rem;
+}
+
+/*.....................
+ library section end
+......................*/
+
+.research-section
+{
+  
+  margin-top: 20px 10px;
+  padding: 50px 0;
+}
+
+.research-section .head-title
+{
+  font-size: 2rem;
+  text-align: center;
+  margin: 50px 15px;
+}
+
+.research
+{
+  position: relative;
+  margin: 30px 15px;
+  height: 500px;
+  box-shadow: 8px 8px 10px #8C8585;
+}
+
+.research-img
+{
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.research-content
+{
+  color: white;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, .5);
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+}
+
+.research-content .title
+{
+  font-size: 1.6rem;
+  margin-bottom: 5px;
+  padding-top: 320px;
+}
+
+.research-content .details
+{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+hr
+{
+  border: 4px solid #C0CA33;
+  border-bottom: none;
+  margin-bottom: 20px;
+  width: 30%;
+}
+.media-lab
+{
+  margin: 30px 15px;
+  box-shadow: 8px 8px 10px #8C8585;
+  height: 500px;
+}
+.media-lab img
+{
+  width: 100%;
+}
+.media-lab h4
+{
+  padding: 20px 20px;
+}
+
+.media-lab p
+{
+  font-weight: bold;
+  padding: 0 20px;
+  line-height: 1.5rem;
+}
